@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barbershop Borodinski</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <!--<meta http-equiv="refresh" content="1">-->
+    </head>
+    <body class="price">
+        <div class="header">
+            <div class="layout-center-wrapper">
+                <ul class="top-menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a class="active" href="#">Прайс-лист</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="account-menu">
+                    <a class="account-menu-enter" href="#">Вход</a>
+                </div>
+            </div>
+        </div>
+        <div class="layout-center-wrapper">
+        <div class="login-popup">
+                <a href="#" class="login-popup-close">X</a>       
+                <div class="index-title">Личный кабинет</div>
+                <p>Введите пожалуйста свой логин и пароль<br>
+                   Если вы забыли пароль</p>
+                <form class="login-form" action="/auth" method="post">
+                <input class="login-field" type="text" name="login" placeholder="Логин">
+                <input class="password-field" type="password" name="password" placeholder="Пароль">
+                <a class="restore" href="/restore">Я забыл пароль</a>
+                <label><input type="checkbox" name="remember"> Запомните меня</label>                
+                <input type="submit" value="Войти">
+            </form>
+            </div>    
+            <div class="container padding-top-30"> 
+             <div class="page-title">   
+                 <h1>Barbershop Borodinski - прайс-лист</h1>
+                 <ul class="breadcrumbs">
+                     <li><a href="#">Главная</a></li>
+                     <li>Прайс-лист</li>
+                 </ul>
+             </div>   
+           <div class="inner-content">   
+           <div class="mega-title">
+              <h1>Истинно мужская классика</h1>
+           </div>
+         <div class="prise clearfix">
+           <div class="sidebar">
+               <h2>Мы используем только<br> лучшие средства:</h2>
+                <ul class="custom-list-1">
+                    <li>Baxter of California</li>
+                    <li>Mr Natty</li>
+                    <li>Suavecito</li>
+                    <li>Malin+Goetz</li>
+                </ul>
+           </div>
+           <div class="content">
+              <h2>Цены на услуги<br> наших мастеров:</h2>
+                    <table class="prices"> 
+                        <tr>
+                            <th>Стрижка</th>
+                            <td>1500 р.</td>
+                        </tr>
+                        <tr>
+                            <th>Стрижка бороды</th>
+                            <td>500 р.</td>
+                        </tr>
+                        <tr>
+                            <th>Накрутка усов</th>
+                            <td>350 р.</td>
+                        </tr>
+                    </table>
+            </div>
+         </div>
+            <div class="about">
+                <h2>Несколько слов о нас:</h2>
+                <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас-это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем на качество.</p>
+                <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+          </div>
+        </div>
+    </div>
+  </div>  
+        <div class="footer">
+            <div class="layout-center-wrapper">
+                <div class="contacts-address">
+                    <p>Barbershop «Borodinski»<br>
+                    Адрес: г. Москва, ул. Собаки Павлова, д. 13<br>
+                    Телефон: +7 (495) 666-02-666</p>
+                </div>
+                <div class="social-buttons">
+                <p>Давайте дружить!</p>
+                    <a href="http://vk.com" class="btn-social btn-social-vk"></a>
+                    <a href="http://facebook.com" class="btn-social btn-social-fb"></a>
+                    <a href="http://instagram.com" class="btn-social btn-social-inst"></a>
+                </div>
+                <div class="copyright">
+                   <p>Дизайн сайта:</p>
+                   <a class="btn" href="http://glukhanko.ru/">glukhanko.ru</a>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>    
